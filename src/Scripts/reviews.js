@@ -1,52 +1,52 @@
 export const customerReviews = [
-    {
-      "name": "Esther Howard",
-      "location": "Texas, USA",
-      "message": "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring."
-    },
-    {
-      "name": "John Doe",
-      "location": "California, USA",
-      "message": "I found the perfect specialist for my condition through Health Plus. The personalized treatment plan made all the difference. Thank you for prioritizing my health!"
-    },
-    {
-      "name": "Alice Smith",
-      "location": "New York, USA",
-      "message": "Booking appointments was a breeze, and the service exceeded my expectations. The doctors truly listen and provide effective solutions. 5 stars!"
-    },
-    {
-      "name": "Bob Johnson",
-      "location": "Florida, USA",
-      "message": "Health Plus is a game-changer! The emergency care saved me during a critical situation. Grateful for their quick and efficient support."
-    },
-    {
-      "name": "Jane Brown",
-      "location": "Washington, USA",
-      "message": "I used to dread dental visits, but Health Plus made it a pleasant experience. The dentist was gentle and professional. I'll definitely be back!"
-    },
-    {
-      "name": "Robert Wilson",
-      "location": "Texas, USA",
-      "message": "Finally, a healthcare platform that puts patients first! The heart disease service provided comprehensive care and regular follow-ups. Thank you, Health Plus!"
-    },
-    {
-      "name": "Mary Lee",
-      "location": "California, USA",
-      "message": "I've been using Health Plus for a variety of health concerns, and each time, I received exceptional care. It's my go-to for all medical needs!"
-    },
-    {
-      "name": "David Miller",
-      "location": "Texas, USA",
-      "message": "I highly recommend Health Plus for online consultations. It's convenient, secure, and the doctors are top-notch. Great job, team!"
-    },
-    {
-      "name": "Sarah Johnson",
-      "location": "Florida, USA",
-      "message": "The convenience of accessing medical notes online was fantastic. Health Plus made managing my health records hassle-free! Best Healthcare services."
-    },
-    {
-      "name": "Michael Brown",
-      "location": "New York, USA",
-      "message": "As a busy professional, Health Plus has been a lifesaver. Quick prescriptions and refills without compromising on quality care. Thank you!"
-    }
+  {
+    name: "Siti Rahmawati",
+    location: "Jakarta, Indonesia",
+    message: "VitaCare mengubah pengalaman kesehatan saya! Konsultasi online sangat praktis, dan dokternya sangat berpengetahuan serta peduli."
+  },
+  {
+    name: "Ahmad Fauzi",
+    location: "Bandung, Indonesia",
+    message: "Saya menemukan spesialis yang tepat untuk kondisi saya melalui VitaCare. Rencana perawatan yang dipersonalisasi membuat perbedaan besar. Terima kasih telah memprioritaskan kesehatan saya!"
+  },
+  {
+    name: "Dewi Lestari",
+    location: "Surabaya, Indonesia",
+    message: "Memesan janji temu sangat mudah, dan pelayanannya melebihi harapan saya. Dokternya benar-benar mendengarkan dan memberikan solusi yang efektif. 5 bintang!"
+  },
+  {
+    name: "Budi Santoso",
+    location: "Yogyakarta, Indonesia",
+    message: "VitaCare benar-benar mengubah segalanya! Layanan daruratnya menyelamatkan saya dalam situasi kritis. Terima kasih atas dukungan cepat dan efisien."
+  },
+  {
+    name: "Melati Ayu",
+    location: "Medan, Indonesia",
+    message: "Dulu saya takut ke dokter gigi, tapi VitaCare membuatnya jadi pengalaman yang menyenangkan. Dokternya lembut dan profesional. Pasti akan kembali!"
+  },
+  {
+    name: "Rizky Pratama",
+    location: "Bekasi, Indonesia",
+    message: "Akhirnya ada platform kesehatan yang benar-benar memprioritaskan pasien! Layanan penyakit jantungnya sangat lengkap dan penuh tindak lanjut. Terima kasih, VitaCare!"
+  },
+  {
+    name: "Indah Wulandari",
+    location: "Semarang, Indonesia",
+    message: "Saya sudah beberapa kali menggunakan VitaCare untuk berbagai masalah kesehatan, dan selalu mendapatkan perawatan yang luar biasa. Ini jadi andalan saya!"
+  },
+  {
+    name: "Fajar Nugroho",
+    location: "Depok, Indonesia",
+    message: "Saya sangat merekomendasikan VitaCare untuk konsultasi online. Praktis, aman, dan dokternya luar biasa. Kerja bagus, tim!"
+  },
+  {
+    name: "Yuniar Sari",
+    location: "Makassar, Indonesia",
+    message: "Kemudahan mengakses catatan medis secara online sangat membantu. VitaCare membuat pengelolaan rekam medis jadi tanpa ribet! Layanan kesehatan terbaik."
+  },
+  {
+    name: "Agus Hidayat",
+    location: "Malang, Indonesia",
+    message: "Sebagai profesional yang sibuk, VitaCare benar-benar menyelamatkan saya. Resep dan pengisian ulang cepat tanpa mengorbankan kualitas. Terima kasih!"
+  }
 ];

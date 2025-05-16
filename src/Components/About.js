@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/doctor-group.png";
+import HeroImage from "../Assets/doctor-group.png"; // Ganti gambar jika tersedia yang lebih relevan
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -7,35 +7,32 @@ function About() {
   return (
     <div className="about-section" id="about">
       <div className="about-image-content">
-        <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        <img src={HeroImage} alt="Ilustrasi Kewarganegaraan" className="about-image1" />
       </div>
 
       <div className="about-text-content">
         <h3 className="about-title">
-          <span>About Us</span>
+          <span>Tentang Kami</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+          Selamat datang di platform edukasi Kewarganegaraan Indonesia. Kami hadir untuk memberikan informasi yang akurat, mudah dipahami, dan relevan mengenai sejarah, prinsip, dan peraturan kewarganegaraan di Republik Indonesia. Kami percaya bahwa pemahaman tentang hak dan kewajiban sebagai warga negara adalah fondasi dari masyarakat yang kuat dan demokratis.
         </p>
 
-        <h4 className="about-text-title">Your Solutions</h4>
+        <h4 className="about-text-title">Langkah Memahami Kewarganegaraan</h4>
 
         <SolutionStep
-          title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          title="jariPela Sejarah"
+          description="Telusuri bagaimana konsep kewarganegaraan berkembang sejak kemerdekaan hingga saat ini, serta dampaknya terhadap kehidupan berbangsa dan bernegara."
         />
 
         <SolutionStep
-          title="Make a Schedule"
-          description="Choose the date and time that suits you best, and let our dedicated team of medical professionals ensure your well-being with personalized care."
+          title="Pahami Hak & Kewajiban"
+          description="Kenali hak-hak dasar yang dijamin oleh konstitusi serta kewajiban yang harus dipenuhi sebagai warga negara Indonesia."
         />
 
         <SolutionStep
-          title="Get Your Solutions"
-          description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
+          title="Akses Regulasi Terkait"
+          description="Dapatkan akses mudah ke peraturan, undang-undang, dan kebijakan terbaru yang mengatur kewarganegaraan dan status hukum di Indonesia."
         />
       </div>
     </div>

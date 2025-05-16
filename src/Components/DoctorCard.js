@@ -7,14 +7,15 @@ function DoctorCard(props) {
     <div className="dt-card">
       <img src={props.img} alt={props.name} className="dt-card-img" />
       <p className="dt-card-name">{props.name}</p>
-      <p className="dt-card-title">{props.title}</p>
+      <p className="dt-card-title">{props.role}</p>
+      <p className="dt-card-description">{props.description}</p>
       <p className="dt-card-stars">
         <FontAwesomeIcon
           icon={faStar}
           style={{ color: "#F7BB50", paddingRight: "6px" }}
         />
         {props.stars}
-        <span className="dt-card-reviews"> ({props.reviews}+ Reviews)</span>
+        <span className="dt-card-reviews"> ({props.reviews}+ Kontribusi)</span>
       </p>
     </div>
   );

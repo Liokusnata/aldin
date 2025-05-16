@@ -32,24 +32,10 @@ function SubscribeNewsletter() {
 
   return (
     <div className="ft-info-p2">
-      <p className="ft-input-title">Stay Update to our Newsletter</p>
-      <input
-        type="text"
-        inputMode="email"
-        className="ft-input"
-        placeholder="Enter your email address"
-        name="email"
-        value={inputEmail}
-        onChange={handleEmailInput}
-        autoComplete="true"
-      />
-      <button
-        className="text-appointment-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleBookAppointmentClick}
-      >
-        Subscribe
+      <p className="ft-input-title">Tetap Terhubung dengan Kami</p>
+      <input type="text" inputMode="email" className="ft-input" placeholder="Enter your email address" name="email" value={inputEmail} onChange={handleEmailInput} autoComplete="true" />
+      <button className="text-appointment-btn" type="button" disabled={isButtonDisabled} onClick={handleBookAppointmentClick}>
+        Berlangganan
       </button>
 
       <ToastContainer autoClose={4000} limit={1} closeButton={false} />

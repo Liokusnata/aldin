@@ -11,45 +11,46 @@ function Doctors() {
     <div className="doctor-section" id="doctors">
       <div className="dt-title-content">
         <h3 className="dt-title">
-          <span>Meet Our Doctors</span>
+          <span>Anggota Kelompok Kami</span>
         </h3>
 
         <p className="dt-description">
-          Meet our exceptional team of specialist doctors, dedicated to
-          providing top-notch healthcare services at Health Plus. Trust in their
-          knowledge and experience to lead you towards a healthier and happier
-          life.
+          Berikut adalah anggota tim pengembang website ini. Kami bekerja sama dengan semangat dan komitmen untuk menghasilkan proyek yang bermanfaat dan berkualitas.
         </p>
       </div>
 
       <div className="dt-cards-content">
         <DoctorCard
           img={profile1}
-          name="Dr. Kathryn Murphy"
-          title="General Surgeons"
-          stars="4.9"
-          reviews="1800"
+          name="Aldi Fernandes, S.T."
+          role="Ketua Kelompok"
+          description="G1C024097"
+          stars="5.0"
+         
         />
         <DoctorCard
           img={profile2}
-          name="Dr. Jacob Jones"
-          title="Hematologists"
-          stars="4.8"
-          reviews="700"
+          name="hery ado saputra hati, S.T."
+          role="Anggota Kelompok"
+          description="G1C024017"
+          stars="5.0"
+          
         />
         <DoctorCard
           img={profile3}
-          name="Dr. Jenny Wilson"
-          title="Endocrinologists"
-          stars="4.7"
-          reviews="450"
+          name="M.Zaki Saputra,S.T."
+          role="Anggota Kelompok"
+          description="G1C024067"
+          stars="5.0"
+
         />
         <DoctorCard
           img={profile4}
-          name="Dr. Albert Flores"
-          title="Hematologists"
-          stars="4.8"
-          reviews="500"
+          name="ahmad reza fahlevi, S.T."
+          role="Anggota Kelompok"
+          description="G1C024029"
+          stars="5.0"
+         
         />
       </div>
     </div>

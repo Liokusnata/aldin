@@ -5,7 +5,7 @@ import {
   faCircleCheck,
   faCalendarCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Styles/BookAppointment.css";
 
 function BookAppointment() {
@@ -23,26 +23,30 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose Health</span>
+          <span>Pancasila</span>
         </h3>
         <p className="ba-description">
-          Discover the reasons to choose Health Plus for your healthcare needs.
-          Experience expert care, convenience, and personalized solutions,
-          making your well-being our top priority. Join us on a journey to
-          better health and a happier life.
+          Pancasila adalah dasar negara Indonesia yang menjadi pedoman hidup
+          berbangsa dan bernegara. Lima sila di dalamnya mencerminkan nilai-nilai
+          luhur seperti ketuhanan, kemanusiaan, persatuan, musyawarah, dan
+          keadilan sosial. Pancasila bukan hanya fondasi hukum, tetapi juga jiwa
+          dari setiap tindakan dan keputusan dalam kehidupan bernegara.
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Best Professional Doctors
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Ketuhanan Yang Maha Esa
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Emergency Care
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Kemanusiaan yang Adil dan Beradab
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> 24/7 Support Live Chat
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Persatuan Indonesia
+        </p>
+        <p className="ba-checks">
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan
         </p>
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Enrollment Easy and Quick
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Keadilan Sosial bagi Seluruh Rakyat Indonesia
         </p>
 
         <button
@@ -50,7 +54,7 @@ function BookAppointment() {
           type="button"
           onClick={handleBookAppointmentClick}
         >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          <FontAwesomeIcon icon={faCalendarCheck} /> Kuis Kewarganegaraan
         </button>
       </div>
     </div>

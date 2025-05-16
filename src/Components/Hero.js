@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/doctor-picture.png";
+import HeroImage from "../Assets/g.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Styles/Hero.css";
 
 function Hero() {
@@ -14,7 +14,7 @@ function Hero() {
   };
 
   const handleBookAppointmentClick = () => {
-    navigate("/appointment");
+    navigate("/appointment"); // Anda bisa mengganti ke "/informasi" jika lebih cocok
   };
 
   useEffect(() => {
@@ -36,42 +36,40 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
+          <p className="text-headline">Kewarganegaraan</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+            SEJARAH KEWARGANEGARAAN REPUBLIK INDONESIA
           </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+            Sejak kemerdekaan pada tahun 1945, Indonesia telah mengalami berbagai perubahan dalam kebijakan kewarganegaraan. Melalui platform ini, Anda dapat mempelajari perkembangan sejarah kewarganegaraan RI, peraturan terkait, serta hak dan kewajiban sebagai warga negara Indonesia.
           </p>
           <button
             className="text-appointment-btn"
             type="button"
             onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faCalendarCheck} /> Kuis Kewarganegaraan
           </button>
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
+              <p>275 Juta+</p>
+              <p>Warga Negara Indonesia</p>
             </div>
 
             <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
+              <p>78+</p>
+              <p>Tahun Sejarah Kewarganegaraan</p>
             </div>
 
             <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
+              <p>100+</p>
+              <p>Regulasi dan Undang-Undang</p>
             </div>
           </div>
         </div>
 
         <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
+          <img className="hero-image1" src={HeroImage} alt="Indonesia" />
         </div>
       </div>
 
